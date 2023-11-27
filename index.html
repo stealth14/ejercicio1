@@ -33,16 +33,15 @@
           padding:10px;
         }
         #contenedor {
-          margin: 280px;
-         text-align: center;
-          width:800px;
+          text-align: center;
+          width:100%;
         }
         #contenido {
           background-color:#ddd;
           float:left;
           height:500px;
           padding:10px;
-          width:560px;
+          width:100%;
         }
         #menu {
           background-color:#fafafa;
@@ -59,6 +58,11 @@
           padding:10px;
           text-align:center;
         }
+        #wrapper {
+          display: flex;
+          justify-content: flex-start;
+          width:100%;
+        }
       </style>
     </head>
     <body>
@@ -66,22 +70,24 @@
         <div id="cabecera">
           <p>Quito - Ecuador</p>
         </div>
-        <div id="menu">
-          <ul>
-            <li><a href="enlace-1.html">Planes P Naturales</a></li>
-            <li><a href="enlace-2.html">Planes Pequeños Negocios</a></li>
-            <li><a href="enlace-3.html">Planes Empresas</a></li>
-          </ul>
+        <div id="wrapper">
+          <div id="menu">
+            <ul>
+              <li><a href="enlace-1.html">Planes P Naturales</a></li>
+              <li><a href="enlace-2.html">Planes Pequeños Negocios</a></li>
+              <li><a href="enlace-3.html">Planes Empresas</a></li>
+            </ul>
+          </div>
+          <div id="contenido">
+            <h1>CONTAX Asesores</h1>
+            <p>Asesoría Contable, Tributaria y Financiera.</p>
+            <img src="img1.png" width="350" height="350" 
+          </div>
         </div>
-        <div id="contenido">
-          <h1>CONTAX Asesores</h1>
-          <p>Asesoría Contable, Tributaria y Financiera.</p>
-          <img src="img1.png" width="350" height="350" 
-        </div>
+      </div>
         <div id="pie">
           <p> 0995053789</p>
         </div>
-      </div>
     </body>
   </html>
   
